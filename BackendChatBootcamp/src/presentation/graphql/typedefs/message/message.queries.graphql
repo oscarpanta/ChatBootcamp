@@ -1,0 +1,5 @@
+type Query {
+  messages: [Message]
+   messagesByUser(userId: ID!): [Message!]!
+   getmessagesByUserReceive(userId: ID!,receiverId:ID!): [Message!]!
+}

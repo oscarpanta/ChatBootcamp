@@ -1,0 +1,4 @@
+type Query {
+  users(search:String): [User]
+   user(id: ID!): User
+}

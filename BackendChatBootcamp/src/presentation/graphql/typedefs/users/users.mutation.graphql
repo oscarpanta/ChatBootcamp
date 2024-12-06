@@ -1,0 +1,5 @@
+type Mutation {
+  createUser(firstName: String!, lastName: String!,isLoggedIn:Boolean!): User
+  loginUser(id: ID!): User! 
+  logoutUser(userId: ID!): User
+}
